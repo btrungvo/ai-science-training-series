@@ -2,7 +2,7 @@
 ## Sambanova
 ## Graphcore
 mnist on Graphcore. Epochs changed from 10 to 30
-'''
+```
 srun: job 20544 queued and waiting for resources
 srun: job 20544 has been allocated resources
 100%|██████████| 9912422/9912422 [00:00<00:00, 315003305.26it/s]
@@ -55,6 +55,6 @@ TrainingModelWithLoss(
   (loss): CrossEntropyLoss()
 )
 Accuracy on test set: 98.16%
-'''
+```
 ## Cerebras
 ## Groq
