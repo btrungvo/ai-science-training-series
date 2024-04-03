@@ -1,0 +1,370 @@
+Connected to tcp://x3005c0s25b1n0.hsn.cm.polaris.alcf.anl.gov:7919
+Found executable /home/btrungvo/wordplay/venvs/polaris/2023-10-04/bin/python3
+Launching application bc39d349-cde5-476f-aa3e-0f65588cb97c
+[2024-04-03 04:01:21][INFO][configs:81] - Setting HF_DATASETS_CACHE to /home/btrungvo/wordplay/.cache/huggingface/datasets
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+Failed to download font: IBM Plex Sans, skipping!
+Failed to download font: IBM Plex Sans Condensed, skipping!
+Failed to download font: IBM Plex Serif, skipping!
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 2
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 4
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 3
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 5
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 6
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 1
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 7
+[2024-04-03 04:01:23][INFO][distributed_c10d:442] - Added key: store_based_barrier_key:1 to store for rank: 0
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 0: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 2: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 4: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 3: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 7: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 1: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 5: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:23][INFO][distributed_c10d:476] - Rank 6: Completed store-based barrier for key:store_based_barrier_key:1 with 8 nodes.
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=3/7][local_rank=3/3][node=1/1]
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=1/7][local_rank=1/3][node=1/1]
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=2/7][local_rank=2/3][node=0/1]
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=5/7][local_rank=1/3][node=1/1]
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=7/7][local_rank=3/3][node=1/1]
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=4/7][local_rank=0/3][node=0/1]
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=6/7][local_rank=2/3][node=0/1]
+[2024-04-03 04:01:26][INFO][dist:239] - DistInfo={
+    "DEVICE": "cuda",
+    "DEVICE_ID": "cuda:0",
+    "DISTRIBUTED_BACKEND": "nccl",
+    "GPUS_PER_NODE": 4,
+    "HOSTFILE": "/var/spool/pbs/aux/1821003.polaris-pbs-01.hsn.cm.polaris.alcf.anl.gov",
+    "HOSTNAME": "x3005c0s25b1n0.hsn.cm.polaris.alcf.anl.gov",
+    "HOSTS": "['x3005c0s25b1n0', 'x3005c0s31b0n0']",
+    "LOCAL_RANK": 0,
+    "MACHINE": "Polaris",
+    "NGPUS": 8,
+    "NODE_ID": 0,
+    "NUM_NODES": 2,
+    "RANK": 0,
+    "SCHEDULER": "PBS",
+    "WORLD_SIZE_IN_USE": 8,
+    "WORLD_SIZE_TOTAL": 8
+}
+[2024-04-03 04:01:26][INFO][dist:605] - [0/8] Using device='cuda' with backend='DDP' + 'nccl' for distributed training.
+[2024-04-03 04:01:26][INFO][dist:290] - [device='cuda'][rank=0/7][local_rank=0/3][node=0/1]
+[2024-04-03 04:01:26][WARNING][dist:296] - Using [8 / 8] available "cuda" devices !!
+[2024-04-03 04:01:26][INFO][configs:317] - Loading val from /home/btrungvo/wordplay/data/shakespeare_char/val.bin
+[2024-04-03 04:01:26][INFO][configs:317] - Loading train from /home/btrungvo/wordplay/data/shakespeare_char/train.bin
+[2024-04-03 04:01:26][INFO][configs:442] - Tokens per iteration: 131,072
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][configs:465] - Using self.ptdtype=torch.bfloat16 on self.device_type='cuda'
+[2024-04-03 04:01:26][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][configs:471] - Initializing a new model from scratch
+[2024-04-03 04:01:26][INFO][dist:751] - Setting up wandb from rank: 0
+[2024-04-03 04:01:26][INFO][dist:752] - Using: WB PROJECT: WordPlay
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:3'"
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:2'"
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:2'"
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:1'"
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:3'"
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:1'"
+[2024-04-03 04:01:26][CRITICAL][trainer:296] - "devid='cuda:0'"
+wandb: Currently logged in as: btrungvo (university-of-illinois-at-chicago). Use `wandb login --relogin` to force relogin
+wandb: wandb version 0.16.5 is available!  To upgrade, please run:
+wandb:  $ pip install wandb --upgrade
+wandb: Tracking run with wandb version 0.15.12
+wandb: Run data is saved locally in /home/btrungvo/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-04-03/04-01-23/wandb/run-20240403_040127-pkv1qd1t
+wandb: Run `wandb offline` to turn off syncing.
+wandb: Syncing run blooming-dew-1
+wandb: ⭐️ View project at https://wandb.ai/university-of-illinois-at-chicago/WordPlay
+wandb: 🚀 View run at https://wandb.ai/university-of-illinois-at-chicago/WordPlay/runs/pkv1qd1t
+[2024-04-03 04:01:28][INFO][dist:782] - W&B RUN: [blooming-dew-1](https://wandb.ai/university-of-illinois-at-chicago/WordPlay/runs/pkv1qd1t)
+[2024-04-03 04:01:28][INFO][dist:810] - Running on machine='Polaris'
+[2024-04-03 04:01:28][WARNING][__main__:87] - {
+    "train": {
+        "framework": "pytorch",
+        "backend": "DDP",
+        "device": null,
+        "seed": null,
+        "port": null,
+        "ds_config_path": null,
+        "precision": null,
+        "ngpus": null,
+        "use_wandb": true,
+        "eval_interval": 250,
+        "log_interval": 5,
+        "eval_iters": 200,
+        "eval_only": false,
+        "always_save_checkpoint": false,
+        "init_from": "scratch",
+        "wandb_project": "WordPlay",
+        "max_iters": 100,
+        "warmup_iters": 100,
+        "dtype": "bfloat16",
+        "compile": false
+    },
+    "model": {
+        "n_layer": 6,
+        "n_head": 6,
+        "n_embd": 384,
+        "batch_size": 64,
+        "block_size": 256,
+        "activation": "gelu",
+        "dropout": 0.2,
+        "bias": false,
+        "vocab_size": 65
+    },
+    "data": {
+        "dataset": "shakespeare_char",
+        "out_dir": "out-shakespeare-char",
+        "root_path": null
+    },
+    "optimizer": {
+        "gas": 1,
+        "name": "AdamW",
+        "learning_rate": 0.001,
+        "weight_decay": 0.1,
+        "beta1": 0.9,
+        "beta2": 0.99,
+        "grad_clip": 1.0,
+        "decay_lr": true,
+        "lr_decay_iters": 5000,
+        "min_lr": 0.0001
+    }
+}
+[2024-04-03 04:01:28][WARNING][__main__:88] - Output dir: /home/btrungvo/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-04-03/04-01-23
+[2024-04-03 04:01:28][INFO][trainer:227] - Initializing a new model from scratch
+[2024-04-03 04:01:28][INFO][model:255] - number of parameters: 10.65M
+[2024-04-03 04:01:28][INFO][model:445] - num decayed parameter tensors: 26, with 10,740,096 parameters
+[2024-04-03 04:01:28][INFO][model:449] - num non-decayed parameter tensors: 13, with 4,992 parameters
+[2024-04-03 04:01:28][INFO][model:465] - using fused AdamW: True
+[2024-04-03 04:01:28][CRITICAL][trainer:296] - "devid='cuda:0'"
+[2024-04-03 04:01:31][INFO][trainer:333] - • self.model=GPT(
+  (transformer): ModuleDict(
+    (wte): Embedding(65, 384)
+    (wpe): Embedding(256, 384)
+    (drop): Dropout(p=0.2, inplace=False)
+    (h): ModuleList(
+      (0-5): 6 x Block(
+        (ln_1): LayerNorm()
+        (attn): CausalSelfAttention(
+          (c_attn): Linear(in_features=384, out_features=1152, bias=False)
+          (c_proj): Linear(in_features=384, out_features=384, bias=False)
+          (attn_dropout): Dropout(p=0.2, inplace=False)
+          (resid_dropout): Dropout(p=0.2, inplace=False)
+        )
+        (ln_2): LayerNorm()
+        (mlp): MLP(
+          (c_fc): Linear(in_features=384, out_features=1536, bias=False)
+          (act_fn): GELU(approximate='none')
+          (c_proj): Linear(in_features=1536, out_features=384, bias=False)
+          (dropout): Dropout(p=0.2, inplace=False)
+        )
+      )
+    )
+    (ln_f): LayerNorm()
+  )
+  (lm_head): Linear(in_features=384, out_features=65, bias=False)
+)
+[2024-04-03 04:01:31][INFO][trainer:334] - • self.grad_scaler=<torch.cuda.amp.grad_scaler.GradScaler object at 0x1492c97947f0>
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5244
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.6396
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5326
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5334
+[2024-04-03 04:01:31][INFO][trainer:335] - • self.model_engine=DistributedDataParallel(
+  (module): GPT(
+    (transformer): ModuleDict(
+      (wte): Embedding(65, 384)
+      (wpe): Embedding(256, 384)
+      (drop): Dropout(p=0.2, inplace=False)
+      (h): ModuleList(
+        (0-5): 6 x Block(
+          (ln_1): LayerNorm()
+          (attn): CausalSelfAttention(
+            (c_attn): Linear(in_features=384, out_features=1152, bias=False)
+            (c_proj): Linear(in_features=384, out_features=384, bias=False)
+            (attn_dropout): Dropout(p=0.2, inplace=False)
+            (resid_dropout): Dropout(p=0.2, inplace=False)
+          )
+          (ln_2): LayerNorm()
+          (mlp): MLP(
+            (c_fc): Linear(in_features=384, out_features=1536, bias=False)
+            (act_fn): GELU(approximate='none')
+            (c_proj): Linear(in_features=1536, out_features=384, bias=False)
+            (dropout): Dropout(p=0.2, inplace=False)
+          )
+        )
+      )
+      (ln_f): LayerNorm()
+    )
+    (lm_head): Linear(in_features=384, out_features=65, bias=False)
+  )
+)
+[2024-04-03 04:01:31][INFO][trainer:336] - • self.optimizer=AdamW (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.99)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: True
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.1
+
+Parameter Group 1
+    amsgrad: False
+    betas: (0.9, 0.99)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: True
+    lr: 0.001
+    maximize: False
+    weight_decay: 0.0
+)
+  0%|          | 0/100 [00:00<?, ?it/s][2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5439
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5431
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5434
+[2024-04-03 04:01:31][INFO][trainer:769] - Startup time: 7.5443
+                              Training Legend
+┏━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃    abbr    ┃ desc                                                        ┃
+┡━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┩
+│    step    │ Current training iteration                                  │
+│    loss    │ Loss value                                                  │
+│     dt     │ Elapsed time per training step (measured in **ms**)         │
+│    dtf     │ Elapsed time per forward step (measured in **ms**)          │
+│    dtb     │ Elapsed time per backward step (measured in **ms**)         │
+│    sps     │ Samples per second                                          │
+│    mtps    │ Tokens per second, measured in MEGA (1 x 10^6) tokens / sec │
+│    mfu     │ Model flops utilization                                     │
+│ train_loss │ Training loss value                                         │
+│  val_loss  │ Validation loss value                                       │
+└────────────┴─────────────────────────────────────────────────────────────┘
+  1%|          | 1/100 [00:04<07:01,  4.26s/it][2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+[2024-04-03 04:01:35][INFO][distributed:1140] - Reducer buckets have been rebuilt in this iteration.
+  3%|▎         | 3/100 [00:04<01:52,  1.16s/it][2024-04-03 04:01:35][INFO][trainer:837] - step=5 loss=3.6453 dt=77.3667 dtf=4.7125 dtb=70.5598 sps=103.4036 mtps=1.6942 mfu=-100.0000 train_loss=4.2302 val_loss=4.2269
+  9%|▉         | 9/100 [00:05<00:24,  3.74it/s][2024-04-03 04:01:36][INFO][trainer:837] - step=10 loss=3.2680 dt=69.2156
+ dtf=4.4412 dtb=62.1918 sps=115.5809 mtps=1.8937 mfu=5.3835 train_loss=4.2302 val_loss=4.2269
+ 13%|█▎        | 13/100 [00:05<00:13,  6.27it/s][2024-04-03 04:01:36][INFO][trainer:837] - step=15 loss=2.9584 dt=86.6808 dtf=4.5282 dtb=80.0511 sps=92.2926 mtps=1.5121 mfu=5.2751 train_loss=4.2302 val_loss=4.2269
+ 19%|█▉        | 19/100 [00:05<00:09,  8.64it/s][2024-04-03 04:01:37][INFO][trainer:837] - step=20 loss=2.7780 dt=91.8507 dtf=4.4940 dtb=83.9814 sps=87.0979 mtps=1.4270 mfu=5.1532 train_loss=4.2302 val_loss=4.2269
+ 23%|██▎       | 23/100 [00:06<00:08,  9.00it/s][2024-04-03 04:01:37][INFO][trainer:837] - step=25 loss=2.6638 dt=77.5614 dtf=4.6424 dtb=70.8406 sps=103.1441 mtps=1.6899 mfu=5.1183 train_loss=4.2302 val_loss=4.2269
+ 29%|██▉       | 29/100 [00:06<00:06, 11.24it/s][2024-04-03 04:01:38][INFO][trainer:837] - step=30 loss=2.6028 dt=131.1688 dtf=4.5446 dtb=123.8683 sps=60.9901 mtps=0.9993 mfu=4.8906 train_loss=4.2302 val_loss=4.2269
+ 33%|███▎      | 33/100 [00:07<00:05, 12.05it/s][2024-04-03 04:01:38][INFO][trainer:837] - step=35 loss=2.5785 dt=57.4444 dtf=4.5490 dtb=50.7915 sps=139.2651 mtps=2.2817 mfu=5.0502 train_loss=4.2302 val_loss=4.2269
+ 39%|███▉      | 39/100 [00:07<00:04, 12.70it/s][2024-04-03 04:01:38][INFO][trainer:837] - step=40 loss=2.5440 dt=127.3733 dtf=4.5493 dtb=120.0439 sps=62.8075 mtps=1.0290 mfu=4.8377 train_loss=4.2302 val_loss=4.2269
+ 43%|████▎     | 43/100 [00:08<00:05, 10.76it/s][2024-04-03 04:01:39][INFO][trainer:837] - step=45 loss=2.5089 dt=92.4441 dtf=4.5746 dtb=85.8450 sps=86.5388 mtps=1.4179 mfu=4.7570 train_loss=4.2302 val_loss=4.2269
+ 49%|████▉     | 49/100 [00:08<00:04, 12.41it/s][2024-04-03 04:01:39][INFO][trainer:837] - step=50 loss=2.5118 dt=55.9119 dtf=4.5303 dtb=48.5882 sps=143.0822 mtps=2.3443 mfu=4.9478 train_loss=4.2302 val_loss=4.2269
+ 53%|█████▎    | 53/100 [00:08<00:04, 11.62it/s][2024-04-03 04:01:40][INFO][trainer:837] - step=55 loss=2.5082 dt=71.7721 dtf=4.6238 dtb=65.0602 sps=111.4639 mtps=1.8262 mfu=4.9722 train_loss=4.2302 val_loss=4.2269
+ 59%|█████▉    | 59/100 [00:09<00:03, 12.53it/s][2024-04-03 04:01:40][INFO][trainer:837] - step=60 loss=2.5053 dt=56.9916 dtf=4.5235 dtb=49.6698 sps=140.3715 mtps=2.2998 mfu=5.1288 train_loss=4.2302 val_loss=4.2269
+ 63%|██████▎   | 63/100 [00:09<00:02, 13.40it/s][2024-04-03 04:01:40][INFO][trainer:837] - step=65 loss=2.4750 dt=98.2095 dtf=4.4263 dtb=91.7756 sps=81.4586 mtps=1.3346 mfu=4.9953 train_loss=4.2302 val_loss=4.2269
+ 69%|██████▉   | 69/100 [00:10<00:02, 11.84it/s][2024-04-03 04:01:41][INFO][trainer:837] - step=70 loss=2.4474 dt=105.0322 dtf=4.5722 dtb=97.6774 sps=76.1671 mtps=1.2479 mfu=4.8506 train_loss=4.2302 val_loss=4.2269
+ 73%|███████▎  | 73/100 [00:10<00:02, 12.49it/s][2024-04-03 04:01:41][INFO][trainer:837] - step=75 loss=2.4720 dt=115.3772 dtf=4.5061 dtb=108.7782 sps=69.3378 mtps=1.1360 mfu=4.6885 train_loss=4.2302 val_loss=4.2269
+ 79%|███████▉  | 79/100 [00:11<00:01, 11.26it/s][2024-04-03 04:01:42][INFO][trainer:837] - step=80 loss=2.4586 dt=116.3883 dtf=4.4963 dtb=109.1426 sps=68.7354 mtps=1.1262 mfu=4.5398 train_loss=4.2302 val_loss=4.2269
+ 83%|████████▎ | 83/100 [00:11<00:01, 10.95it/s][2024-04-03 04:01:42][INFO][trainer:837] - step=85 loss=2.4349 dt=82.3385 dtf=4.5832 dtb=75.7028 sps=97.1599 mtps=1.5919 mfu=4.5383 train_loss=4.2302 val_loss=4.2269
+ 89%|████████▉ | 89/100 [00:11<00:00, 11.89it/s][2024-04-03 04:01:43][INFO][trainer:837] - step=90 loss=2.4334 dt=57.6643 dtf=4.7370 dtb=50.1625 sps=138.7340 mtps=2.2730 mfu=4.7307 train_loss=4.2302 val_loss=4.2269
+ 93%|█████████▎| 93/100 [00:12<00:00, 12.17it/s][2024-04-03 04:01:43][INFO][trainer:837] - step=95 loss=2.4452 dt=78.1496 dtf=4.6313 dtb=71.4347 sps=102.3678 mtps=1.6772 mfu=4.7344 train_loss=4.2302 val_loss=4.2269
+ 99%|█████████▉| 99/100 [00:12<00:00, 12.66it/s][2024-04-03 04:01:43][INFO][trainer:837] - step=100 loss=2.4506 dt=68.8262 dtf=4.5927 dtb=59.2511 sps=116.2348 mtps=1.9044 mfu=4.8024 train_loss=4.2302 val_loss=4.2269
+100%|██████████| 100/100 [00:12<00:00,  7.82it/s]
+[2024-04-03 04:01:45][INFO][__main__:113] - ['prompt']: 'What is an LLM?'
+[2024-04-03 04:01:45][INFO][__main__:114] - ['response']:
+
+What is an LLM? ceas chingh wilow forend f ind woor il ak, s ito ceay f acangake bul all to th inchthe wind
+I he s hame tha be thougo s ane wnourof m.
+
+TEL: andisoull ad brede t.
+
+
+
+CAMELLIO:
+GLO:
+
+
+SCK:
+CEDO:
+Themy, yothantharl bumer but llar se ingour haro her n:
+Sot,
+[2024-04-03 04:01:45][INFO][trainer:735] - Saving checkpoint to: /home/btrungvo/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-04-03/04-01-23
+[2024-04-03 04:01:45][INFO][trainer:736] - Saving model to: /home/btrungvo/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-04-03/04-01-23/model.pth
+[2024-04-03 04:01:45][INFO][configs:141] - Appending /home/btrungvo/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-04-03/04-01-23 to /home/btrungvo/wordplay/src/ckpts/checkpoints.log
+wandb: Waiting for W&B process to finish... (success).
+wandb: - 41.197 MB of 41.197 MB uploaded (0.000 MB deduped)
+wandb: Run history:
+wandb:              Loss/iter ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:             Loss/lossf █▆▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:               Loss/mfu ▁███████████████████
+wandb:             Loss/train ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:               Loss/val ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:          Timing/dt_avg ▃▂▄▄▃█▁█▄▁▃▁▅▆▇▇▄▁▃▂
+wandb:         Timing/dt_iter ▃▂▄▄▃█▁█▄▁▂▁▅▆▇▇▃▁▃▂
+wandb:          Timing/dt_tot ▃▂▄▄▃█▁█▄▁▃▁▅▆▇▇▄▁▃▂
+wandb:         Timing/dtb_avg ▃▂▄▄▃█▁█▄▁▃▁▅▆▇▇▄▁▃▂
+wandb:         Timing/dtb_tot ▃▂▄▄▃█▁█▄▁▃▁▅▆▇▇▄▁▃▂
+wandb:         Timing/dtf_avg ▇▁▃▃▆▄▄▄▄▃▅▃▁▄▃▃▅█▆▅
+wandb:         Timing/dtf_tot ▇▁▃▃▆▄▄▄▄▃▅▃▁▄▃▃▅█▆▅
+wandb:            Timing/iter ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb: Timing/samples_per_sec ▅▆▄▃▅▁█▁▃█▅█▃▂▂▂▄█▅▆
+wandb:    Timing/startup_time ▁
+wandb:  Timing/tokens_per_sec ▅▆▄▃▅▁█▁▃█▅█▃▂▂▂▄█▅▆
+wandb:          Training/iter ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:          Training/loss █▆▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:      Training/loss_tot █▆▄▃▂▂▂▂▁▁▁▁▁▁▁▁▁▁▁▁
+wandb:            Training/lr ▁▁▂▂▂▃▃▄▄▄▅▅▅▆▆▇▇▇██
+wandb:
+wandb: Run summary:
+wandb:              Loss/iter 100
+wandb:             Loss/lossf 2.45062
+wandb:               Loss/mfu 4.80239
+wandb:             Loss/train 4.23019
+wandb:               Loss/val 4.22695
+wandb:          Timing/dt_avg 0.03192
+wandb:         Timing/dt_iter 0.06883
+wandb:          Timing/dt_tot 0.06384
+wandb:         Timing/dtb_avg 0.05925
+wandb:         Timing/dtb_tot 0.05925
+wandb:         Timing/dtf_avg 0.00459
+wandb:         Timing/dtf_tot 0.00459
+wandb:            Timing/iter 99
+wandb: Timing/samples_per_sec 116.23483
+wandb:    Timing/startup_time 7.54312
+wandb:  Timing/tokens_per_sec 1904391.4754
+wandb:          Training/iter 99
+wandb:          Training/loss 2.45062
+wandb:      Training/loss_tot 2.45062
+wandb:            Training/lr 0.00099
+wandb:
+wandb: 🚀 View run blooming-dew-1 at: https://wandb.ai/university-of-illinois-at-chicago/WordPlay/runs/pkv1qd1t
+wandb: ️⚡ View job at https://wandb.ai/university-of-illinois-at-chicago/WordPlay/jobs/QXJ0aWZhY3RDb2xsZWN0aW9uOjE1NTYwODM5MQ==/version_details/v0
+wandb: Synced 5 W&B file(s), 0 media file(s), 25 artifact file(s) and 0 other file(s)
+wandb: Find logs at: /home/btrungvo/wordplay/src/outputs/runs/shakespeare/pytorch/DDP/2024-04-03/04-01-23/wandb/run-20240403_040127-pkv1qd1t/logs
+Application bc39d349 resources: utime=175s stime=97s maxrss=3538220KB inblock=817144 oublock=506760 minflt=4845718 majflt=0 nvcsw=101066 nivcsw=26979
