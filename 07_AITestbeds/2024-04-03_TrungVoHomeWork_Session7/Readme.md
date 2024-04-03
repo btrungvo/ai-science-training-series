@@ -3,7 +3,7 @@
 ## Sambanova
 Changed --ntask from 16 to 8
 ## Graphcore
-mnist on Graphcore. Epochs changed from 10 to 30
+mnist on Graphcore. Epochs changed from 10 to 30. Accuracy improved from 96.85% to 98.16%
 ```
 srun: job 20544 queued and waiting for resources
 srun: job 20544 has been allocated resources
