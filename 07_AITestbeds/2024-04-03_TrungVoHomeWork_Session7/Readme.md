@@ -1,7 +1,7 @@
 # Trung Vo's Homework Session 7
 
 ## Sambanova
-
+Changed --ntask from 16 to 8
 ## Graphcore
 mnist on Graphcore. Epochs changed from 10 to 30
 ```
