@@ -62,6 +62,7 @@ Accuracy on test set: 98.16%
 ## Cerebras
 
 ## Groq
+Changed hyperparameter led to error so I kept the script the same as original.
 ```
 tokenizer_config.json: 100%|███████████████████████████████████████████████████████████| 346/346 [00:00<00:00, 1.85MB/s]
 vocab.txt: 100%|█████████████████████████████████████████████████████████████████████| 232k/232k [00:00<00:00, 10.2MB/s]
